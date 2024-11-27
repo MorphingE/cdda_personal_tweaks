@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PersonalTweaks",
+    "name": "Personal Tweaks for Gameplay",
+    "authors": [ "MorphingE" ],
+    "maintainers": [ "MorphingE" ],
+    "description": "A collection of personal tweaks.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ],
+	"loading_images": [ "msc.png", "msc2.png", "msc3.png", "msc4.png", "msc5.png", "msc6.png", "msc7.png", "msc8.png", "msc9.png", "msc10.png", "msc11.png", "msc12.png", "msc13.png" ]
+  }
+]

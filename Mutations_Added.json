@@ -1,0 +1,152 @@
+[
+  {
+	"type": "mutation_type",
+	"id": "Transformation"
+	},
+  {
+    "type": "mutation",
+    "id": "WINGS_BIRD",
+    "copy-from": "WINGS_BIRD",
+    "extend": { "leads_to": [ "WINGS_BIRD_ADAPTED" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "WINGS_BIRD_ADAPTED",
+    "name": { "str": "Adapted Wing Muscles" },
+    "valid": false,
+    "points": 0,
+    "description": "Thanks to precise genetic engineering, you have muscles specifically adapted to your wings.  While this still doesn't allow flight, you are able to flap your wings to greatly enhance dodging and move faster over obstacles.",
+    "types": [ "WINGS" ],
+    "prereqs": [ "WINGS_BIRD" ],
+    "category": [ "BIRD" ],
+			"enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 },
+		  { "value": "DODGE_CHANCE", "add": 4 }
+        ]
+      }
+	 ]
+  },
+  {
+    "type": "mutation",
+    "id": "LEG_TENTACLES",
+    "copy-from": "LEG_TENTACLES",
+    "extend": { "leads_to": [ "LEG_TENTACLES_ADAPTED" ] }
+  },
+    {
+    "type": "mutation",
+    "id": "SKIRT_TENTACLES",
+    "name": { "str": "Skirt of Tentacles" },
+    "points": -4,
+    "visibility": 8,
+    "ugliness": 4,
+    "mixed_effect": true,
+    "description": "Your legs are assisted by six tentacles that merge into your waist and thighs.  This makes your movement quiet and increases your swimming speed and reduces wet penalties.",
+    "types": [ "LEGS" ],
+    "leads_to": [ "LEG_TENT_BRACE", "LEG_TENTACLES_ADAPTED" ],
+    "category": [ "CEPHALOPOD" ],
+    "wet_protection": [
+      { "part": "leg_l", "neutral": 11 },
+      { "part": "leg_r", "neutral": 11 },
+      { "part": "foot_l", "neutral": 3 },
+      { "part": "foot_r", "neutral": 3 }
+    ],
+    "enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_SWIM_MOD", "multiply": -0.15 }
+        ]
+      }
+	 ]
+  },
+    {
+    "type": "mutation",
+    "id": "LEG_TENTACLES_ADAPTED",
+    "name": { "str": "Adapted Tentacle Coordination" },
+    "valid": false,
+    "points": 0,
+    "description": "Thanks to cutting edge neuroprogramming equipment, you have perfect coordination with your leg tentacles.  This negates the usual movement penalty and makes moving over obstacles easier.",
+    "types": [ "LEGS" ],
+	"prereqs": [ "LEG_TENTACLES" ],
+    "category": [ "CEPHALOPOD" ],
+	        "enchantments": [
+      {
+        "values": [
+		  { "value": "MOVE_COST", "multiply": -0.2 },
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 },
+		  { "value": "BONUS_BLOCK", "add": 2 }
+        ]
+      }
+    ]
+  },
+     {
+    "type": "mutation",
+    "id": "LEG_SKIRT_TENTACLES_ADAPTED",
+    "name": { "str": "Adapted Tentacle Skirt Coordination" },
+    "valid": false,
+    "points": 0,
+    "description": "Thanks to cutting edge neuroprogramming equipment, you have perfect coordination with your skirt of tentacles.  This makes moving over obstacles easier.",
+    "types": [ "LEGS" ],
+	"prereqs": [ "SKIRT_TENTACLES" ],
+    "category": [ "CEPHALOPOD" ],
+	        "enchantments": [
+      {
+        "values": [
+		  { "value": "MOVE_COST", "multiply": -0.10 },
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 },
+		  { "value": "BONUS_BLOCK", "add": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "WINGS_INSECT",
+    "copy-from": "WINGS_INSECT",
+    "extend": { "leads_to": [ "WINGS_INSECT_ADAPTED" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "WINGS_INSECT_ADAPTED",
+    "name": { "str": "Adapted Wing Muscles" },
+    "valid": false,
+    "points": 0,
+    "description": "Thanks to precise genetic engineering, you have muscles specifically adapted to your wings.  While this still doesn't allow flight, you are able to flap your wings to greatly enhance dodging and move faster over obstacles.",
+    "types": [ "WINGS" ],
+    "prereqs": [ "WINGS_INSECT" ],
+    "category": [ "INSECT" ],
+	        "enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 },
+		  { "value": "DODGE_CHANCE", "add": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "HOOVES",
+    "copy-from": "HOOVES",
+    "extend": { "leads_to": [ "HOOVES_ADAPTED" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "HOOVES_ADAPTED",
+    "name": { "str": "Adapted Leg Joints" },
+    "valid": false,
+    "points": 0,
+    "description": "Thanks to some extra work done on your joints, you're able to use your hooved legs to their full potential.  You get a movement speed bonus when moving on flat ground.",
+    "types": [ "LEGS" ],
+    "prereqs": [ "HOOVES" ],
+    "category": [ "CATTLE" ],
+			"enchantments": [
+      {
+        "values": [
+          { "value": "MOVECOST_FLATGROUND_MOD", "multiply": -0.15 }
+        ]
+      }
+	 ]
+  }
+]
