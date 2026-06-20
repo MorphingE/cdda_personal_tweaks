@@ -1,0 +1,38 @@
+[
+  {
+    "id": "spell_components_spell_oneiric_hammer",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ]
+    ]
+  },
+  {
+    "id": "spell_oneiric_hammer",
+    "type": "SPELL",
+    "copy-from": "spell_oneiric_hammer",
+	"flags": [ "VERBAL", "NO_LEGS", "PERMANENT_ALL_LEVELS", "NO_FAIL", "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"components": "spell_components_spell_oneiric_hammer"
+  },
+  {
+    "id": "cable_whip",
+    "type": "SPELL",
+	"copy-from": "cable_whip",
+	"flags": [ "SOMATIC", "NO_HANDS" ],
+    "base_energy_cost": 1,
+	"final_energy_cost": 1,
+    "energy_increment": 0,
+	"energy_source": { "type": "VITAMIN", "vitamin": "creative_spark" }
+  },
+  {
+    "id": "firmament_driver",
+    "type": "SPELL",
+	"copy-from": "firmament_driver",
+	"flags": [ "SOMATIC", "NO_HANDS" ],
+    "base_energy_cost": 1,
+	"final_energy_cost": 1,
+    "energy_increment": 0,
+	"energy_source": { "type": "VITAMIN", "vitamin": "creative_spark" }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "xe_hedge_magick",
+	"copy-from": "xe_hedge_magick",
+    "type": "magic_type",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "hedge_food_or_drink_magic_square",
+	"copy-from": "hedge_food_or_drink_magic_square",
+    "type": "SPELL",
+    "name": "To Cause the Spirits to Bring us Sustenance"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "eat_dreamdross",
+    "type": "SPELL",
+	"copy-from": "eat_dreamdross",
+	"effect": "effect_on_condition",
+	"effect_str": "EOC_EATER_DROSS_VITAMIN_1",
+    "min_damage": 0,
+    "damage_increment": 0,
+    "max_damage": 0
+	
+  },
+  {
+    "id": "eat_more_dreamdross", 
+    "type": "SPELL",
+	"copy-from": "eat_more_dreamdross",
+	"effect": "effect_on_condition",
+	"effect_str": "EOC_EATER_DROSS_VITAMIN_2",
+    "min_damage": 0,
+    "damage_increment": 0,
+    "max_damage": 0
+  },
+  {
+    "id": "eat_dreamdross_ingot_mana",
+    "type": "SPELL",
+	"copy-from": "eat_dreamdross_ingot_mana",
+	"effect": "effect_on_condition",
+	"effect_str": "EOC_EATER_DROSS_VITAMIN_3",
+    "min_damage": 0,
+    "max_damage": 0
+  },
+  {
+    "id": "blood_boil",
+	"copy-from": "blood_boil",
+    "type": "SPELL",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_blood_boil"
+  },
+  {
+    "type": "SPELL",
+    "id": "spring_heeled_leap",
+	"copy-from": "spring_heeled_leap",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spring_heeled_leap"
+  },
+  {
+    "id": "spell_rage",
+    "type": "SPELL",
+	"copy-from": "spell_rage",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_rage"
+  },
+  {
+    "id": "spell_stamina_wonder",
+    "type": "SPELL",
+	"copy-from": "spell_stamina_wonder",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_stamina_wonder"
+  },
+  {
+    "id": "spell_night_vision",
+    "type": "SPELL",
+	"copy-from": "spell_night_vision",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_night_vision"
+  },
+  {
+    "id": "spell_dodge",
+    "type": "SPELL",
+	"copy-from": "spell_dodge",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_dodge"
+  },
+  {
+    "id": "spell_endurance",
+    "type": "SPELL",
+	"copy-from": "spell_endurance",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_endurance"
+  },
+  {
+    "id": "spell_invisibility",
+    "type": "SPELL",
+	"copy-from": "spell_invisibility",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_invisibility"
+  },
+  {
+    "id": "spell_clairvoyance",
+    "type": "SPELL",
+	"copy-from": "spell_clairvoyance",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_clairvoyance"
+  },
+  {
+    "id": "spell_melee_damage",
+    "type": "SPELL",
+	"copy-from": "spell_melee_damage",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_melee_damage"
+  },
+  {
+    "id": "spell_spear",
+    "type": "SPELL",
+	"copy-from": "spell_spear",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_spear"
+  },
+  {
+    "id": "spell_speed_wonder",
+    "type": "SPELL",
+	"copy-from": "spell_speed_wonder",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_speed_wonder"
+  },
+  {
+    "id": "spell_weak",
+    "type": "SPELL",
+	"copy-from": "spell_weak",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_weak"
+  },
+  {
+    "id": "spell_unbreakable",
+    "type": "SPELL",
+	"copy-from": "spell_unbreakable",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_spell_unbreakable"
+  },
+  {
+    "id": "xedra_eater_stabilize_reality",
+    "type": "SPELL",
+	"copy-from": "xedra_eater_stabilize_reality",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_xedra_eater_stabilize_reality"
+  },
+  {
+    "id": "xedra_eater_erosion",
+    "type": "SPELL",
+	"copy-from": "xedra_eater_erosion",
+    "base_energy_cost": 0,
+    "final_energy_cost": 0,
+    "energy_increment": 0,
+	"components": "spell_components_xedra_eater_erosion"
+  },
+  {
+    "id": "point_blank",
+    "type": "SPELL",
+	"copy-from": "point_blank",
+	"extend": { "flags": [ "NO_HANDS" ] },
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+	"components": "spell_components_point_blank"
+  }
+]

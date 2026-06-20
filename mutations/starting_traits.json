@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mutation",
+    "id": "CANNIBAL",
+    "copy-from": "CANNIBAL",
+    "chargen_allow_npc": true
+  },
+  {
+    "type": "mutation",
+    "id": "STRICT_HUMANITARIAN",
+    "copy-from": "STRICT_HUMANITARIAN",
+    "chargen_allow_npc": true
+  },
+  {
+    "type": "mutation",
+    "id": "PSYCHOPATH",
+    "copy-from": "PSYCHOPATH",
+    "chargen_allow_npc": true
+  },
+  {
+    "type": "mutation",
+    "id": "CHEMIMBALANCE",
+    "copy-from": "CHEMIMBALANCE",
+    "chargen_allow_npc": true
+  },
+  {
+    "type": "mutation",
+    "id": "NARCOLEPTIC",
+    "copy-from": "NARCOLEPTIC",
+    "chargen_allow_npc": true
+  },
+  {
+    "type": "mutation",
+    "id": "PYROMANIA",
+    "copy-from": "PYROMANIA",
+    "chargen_allow_npc": true
+  }
+]

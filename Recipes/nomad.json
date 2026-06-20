@@ -1,0 +1,32 @@
+[
+  {
+    "result": "footless_nomad_bodyglove_1",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+	"id_suffix": "from_nomad_bodyglove_1",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "time": "6 m",
+    "book_learn": [ [ "bp_nomad_bodyglove", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "nomad_bodyglove_1", 1 ] ] ],
+    "flags": [ "SECRET" ],
+    "byproducts": [ [ "scrap_lycra", 4 ] ]
+  },
+  {
+    "result": "footless_nomad_bodyglove_2",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+	"id_suffix": "from_nomad_bodyglove_2",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "time": "6 m",
+    "book_learn": [ [ "bp_nomad_bodyglove", 4 ] ],
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "nomad_bodyglove_2", 1 ] ] ],
+    "flags": [ "SECRET" ],
+    "byproducts": [ [ "scrap_kevlar", 2 ], [ "scrap_lycra", 4 ] ]
+  }
+]

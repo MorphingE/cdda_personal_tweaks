@@ -1,0 +1,42 @@
+[
+  {
+    "id": "spell_components_classless_xedra_night_sight",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_classless_xedra_dread_weight",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_classless_xedra_blur",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_classless_xedra_damage_transfer",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_classless_xedra_fire_teleport",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "id": "create_dream_dross",
+    "type": "SPELL",
+    "copy-from": "create_dream_dross",
+	"energy_source": "MANA"
+  },
+  {
+    "id": "dream_blade",
+    "type": "SPELL",
+    "copy-from": "dream_blade",
+    "base_energy_cost": 0,
+	"components": "spell_components_dream_blade"
+  },
+  {
+    "id": "dream_dagger",
+    "type": "SPELL",
+    "copy-from": "dream_dagger",
+    "base_energy_cost": 0,
+	"components": "spell_components_dream_dagger"
+  },
+  {
+    "id": "dream_armor",
+    "type": "SPELL",
+    "copy-from": "dream_armor",
+    "base_energy_cost": 0,
+	"components": "spell_components_dream_armor"
+  },
+  {
+    "id": "banish_nether_monsters",
+    "type": "SPELL",
+    "copy-from": "banish_nether_monsters",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_banish_nether_monsters"
+  },
+  {
+    "id": "banish_dark_monsters",
+    "type": "SPELL",
+    "copy-from": "banish_dark_monsters",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_banish_dark_monsters"
+  },
+  {
+    "id": "spell_summon_twin",
+    "type": "SPELL",
+    "copy-from": "spell_summon_twin",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_spell_summon_twin"
+  },
+  {
+    "id": "spell_summon_twin_flood",
+    "type": "SPELL",
+    "copy-from": "spell_summon_twin_flood",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_spell_summon_twin_flood"
+  },
+  {
+    "id": "spell_dreamer_clairvoyance",
+    "type": "SPELL",
+    "copy-from": "spell_dreamer_clairvoyance",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_spell_dreamer_clairvoyance"
+  },
+  {
+    "id": "spell_dreamer_clairvoyance_eff",
+    "type": "SPELL",
+    "copy-from": "spell_dreamer_clairvoyance_eff",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_spell_dreamer_clairvoyance_eff"
+  },
+  {
+    "id": "summon_shifter",
+    "type": "SPELL",
+    "copy-from": "summon_shifter",
+    "base_energy_cost": 0,
+    "components": "spell_components_summon_shifter"
+  },
+  {
+    "id": "summon_sapient_light",
+    "type": "SPELL",
+    "copy-from": "summon_sapient_light",
+    "base_energy_cost": 0,
+    "components": "spell_components_summon_sapient_light"
+  },
+  {
+    "id": "make_constructed_hammer",
+    "type": "SPELL",
+    "copy-from": "make_constructed_hammer",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_make_constructed_hammer"
+  },
+  {
+    "id": "summon_duplicator",
+    "type": "SPELL",
+    "copy-from": "summon_duplicator",
+    "base_energy_cost": 0,
+    "components": "spell_components_summon_duplicator"
+  },
+  {
+    "id": "xedra_dreamer_time_bubble",
+    "type": "SPELL",
+    "copy-from": "xedra_dreamer_time_bubble",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_xedra_dreamer_time_bubble"
+  },
+  {
+    "id": "teleport_coin",
+    "type": "SPELL",
+    "copy-from": "teleport_coin",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_dreamer_coin"
+  },
+  {
+    "id": "summon_ophanim",
+    "type": "SPELL",
+    "copy-from": "summon_ophanim",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_summon_ophanim"
+  },
+  {
+    "id": "summon_winch",
+    "type": "SPELL",
+    "copy-from": "summon_winch",
+    "base_energy_cost": 0,
+    "energy_increment": 0,
+    "final_energy_cost": 0,
+    "components": "spell_components_summon_winch"
+  },
+  {
+    "id": "xedra_dreamer_generate_accelerated_time",
+    "type": "SPELL",
+    "copy-from": "xedra_dreamer_generate_accelerated_time",
+    "components": "spell_components_xedra_dreamer_generate_accelerated_time",
+    "base_energy_cost": { "math": [ "u_effect_intensity('effect_xedra_dreamer_generate_accelerated_time') > -1 ? 0 : 0" ] }
+  },
+  {
+    "id": "spell_ethereal_wings",
+    "type": "SPELL",
+    "copy-from": "spell_ethereal_wings",
+    "components": "spell_components_spell_ethereal_wings",
+	"energy_source": "MANA",
+    "base_energy_cost": { "math": [ "u_has_trait('ethereal_wings') ? 0 : 0" ] }
+  },
+  {
+    "id": "spell_karma_arms",
+    "type": "SPELL",
+    "copy-from": "spell_karma_arms",
+    "components": "spell_components_spell_karma_arms",
+	"energy_source": "MANA",
+    "base_energy_cost": { "math": [ "u_has_trait('karma_arms') ? 0 : 0" ] }
+  },
+  {
+    "id": "spell_stalker_eyes",
+    "type": "SPELL",
+    "copy-from": "spell_stalker_eyes",
+    "components": "spell_components_spell_stalker_eyes",
+	"energy_source": "MANA",
+    "base_energy_cost": { "math": [ "u_has_trait('stalker_eyes') ? 0 : 0" ] }
+  },
+  {
+    "id": "spell_devil_tail",
+    "type": "SPELL",
+    "copy-from": "spell_devil_tail",
+    "components": "spell_components_spell_devil_tail",
+	"energy_source": "MANA",
+    "base_energy_cost": { "math": [ "u_has_trait('devil_tail') ? 0 : 0" ] }
+  },
+  {
+    "id": "dreamer_lucid_dreams",
+    "type": "SPELL",
+    "copy-from": "dreamer_lucid_dreams",
+    "components": "spell_components_dreamer_lucid_dreams",
+    "base_energy_cost": { "math": [ "u_has_trait('LUCID_DREAM') ? 0 : 0" ] }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_adv_solar_unit",
+    "name": "mounted advanced solar panel",
+    "description": "A set of advanced photovoltaic power generators, which turns solar radiation into useable electricity.  While useful before the Cataclysm, they have become priceless tools, invaluable to any survivor.",
+    "symbol": "#",
+    "color": "yellow",
+    "move_cost_mod": 2,
+    "required_str": -1,
+    "examine_action": { "type": "appliance_convert", "furn_set": "f_null", "item": "solar_panel_v2" },
+    "flags": [ "TRANSPARENT" ],
+    "deconstruct": { "items": [ { "item": "solar_panel_v2", "count": 1 } ] },
+    "bash": {
+      "str_min": 10,
+      "str_max": 20,
+      "sound": "whack!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "solar_cell_v2", "count": [ 1, 5 ] },
+        { "item": "scrap", "count": [ 3, 6 ] },
+        { "item": "amplifier", "prob": 50 },
+        { "item": "cable", "count": [ 10, 15 ] },
+        { "item": "power_supply", "prob": 50 },
+        { "item": "scrap", "count": [ 4, 6 ] },
+        { "item": "plastic_chunk", "count": [ 1, 2 ] },
+        { "item": "steel_chunk", "count": 3 }
+      ]
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "ap_cooler_large",
+    "name": { "str": "air conditioner" },
+    "item": "large_cooler",
+    "//": "Cost based on RP restriction of using only on outer walls (mimicking window units)",
+    "flags": [ "CTRL_ELECTRONIC", "ENABLED_DRAINS_EPOWER", "APPLIANCE", "SPACE_HEATER" ],
+    "copy-from": "mountable_cooler",
+    "emissions": [ "emit_cooler_house" ],
+    "exhaust": [  ],
+    "epower": "-500 W",
+    "requirements": { "removal": { "time": "6 m" } }
+  },
+  {
+    "type": "construction",
+    "id": "ap_cooler_large",
+    "group": "place_cooler_large",
+    "category": "APPLIANCE",
+    "required_skills": [ [ "fabrication", 4 ] ],
+    "time": "5 m",
+    "components": [ [ [ "large_cooler", 1 ] ], [ [ "nail", 20 ] ], [ [ "hose", 2 ] ], [ [ "pipe", 4 ] ], [ [ "2x4", 6 ] ] ],
+    "pre_special": "check_empty",
+    "post_special": "done_appliance",
+    "activity_level": "LIGHT_EXERCISE"
+  },
+  {
+    "type": "recipe",
+    "activity_level": "ACTIVE_EXERCISE",
+    "result": "large_cooler",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "2 h 30 m",
+    "reversible": true,
+    "decomp_learn": 3,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ] ],
+    "using": [ [ "welding_standard", 20 ] ],
+    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "sheet_metal", 2 ] ],
+      [ [ "condensor_coil", 2 ] ],
+      [ [ "evaporator_coil", 2 ] ],
+      [ [ "thermostat", 1 ] ],
+      [ [ "motor_tiny", 2 ] ],
+      [ [ "refrigerant_tank", 1 ] ],
+      [ [ "plastic_chunk", 11 ] ],
+      [ [ "wire", 4 ] ],
+      [ [ "scrap", 1 ] ]
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "large_cooler",
+    "name": { "str": "air conditioner" },
+    "description": "A portable air conditioning unit.",
+    "weight": "12500 g",
+    "to_hit": -4,
+    "color": "light_cyan",
+    "symbol": "C",
+    "material": [ "steel" ],
+    "volume": "7500 ml",
+    "melee_damage": { "bash": 12 },
+    "category": "veh_parts",
+    "price": "200 USD",
+    "price_postapoc": "15 USD"
+  },
+  {
+    "type": "construction_group",
+    "id": "place_cooler_large",
+    "name": "Place Air Conditioner"
+  },
+  {
+    "id": "emit_cooler_house",
+    "type": "emit",
+    "field": "fd_cold_air2",
+    "intensity": 3,
+    "qty": 100,
+    "chance": 100
+  }
+]

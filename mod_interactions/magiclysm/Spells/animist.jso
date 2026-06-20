@@ -1,0 +1,20 @@
+[
+	{
+		"id": "summon_undead",
+		"type": "SPELL",
+		"copy-from": "summon_undead",
+		"base_energy_cost": 100
+	},
+	{
+		"id": "summon_undead_swarm",
+		"type": "SPELL",
+		"copy-from": "summon_undead_swarm",
+		"base_energy_cost": 200
+	},
+	{
+		"id": "dominate",
+		"type": "SPELL",
+		"copy-from": "dominate",
+		"base_energy_cost": 200
+	}
+]

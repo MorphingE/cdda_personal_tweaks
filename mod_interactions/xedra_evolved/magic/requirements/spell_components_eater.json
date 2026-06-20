@@ -1,0 +1,142 @@
+[
+  {
+    "id": "spell_components_blood_boil",
+	"type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spring_heeled_leap",
+	"type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_rage",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_stamina_wonder",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 9 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_night_vision",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_dodge",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_endurance",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ],
+	  [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_invisibility",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ],
+	  [ [ "scrap_dreamdross", 8 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_clairvoyance",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 8 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_melee_damage",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ],
+	  [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_spear",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 2 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_speed_wonder",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ],
+	  [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_weak",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_unbreakable",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_xedra_eater_stabilize_reality",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 9 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_xedra_eater_erosion",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_point_blank",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  }
+]

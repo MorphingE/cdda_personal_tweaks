@@ -1,0 +1,26 @@
+[
+  {
+    "type": "scenario",
+    "id": "pt_unique_scenario",
+    "name": "A New Breed",
+    "points": 0,
+    "description": "",
+    "start_name": "Unique Breed",
+    "allowed_locs": [ "sloc_shelter_vandal", "sloc_hermit_shack", "sloc_cabin", "sloc_house_boarded", "sloc_forest", "sloc_field" ],
+    "professions": [ "PT_Abomination" ],
+	"eoc": [ 
+	  "scenario_lilin_starting_ruach",
+	  "scenario_werewolf_variables"
+	],
+	"forced_traits": [
+	  "LILIN_TRAITS", 
+	  "LILIN_DRAIN_RUACH_MELEE",
+	  "NATIVE_SHAPESHIFTER", 
+	  "WEREWOLF_ANIMAL_FORM", 
+	  "WEREWOLF_HYBRID_FORM", 
+	  "WEREWOLF_SPELLS", 
+	  "WEREWOLF_MANA_TRAIT"
+    ],
+    "flags": [ "LONE_START" ]
+  }
+]

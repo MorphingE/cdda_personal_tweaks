@@ -1,0 +1,84 @@
+[
+  {
+    "id": "spacebar_mine_nether_attunement_effects",
+    "type": "widget",
+    "style": "text",
+    "width": 56,
+    "clauses": [
+      {
+        "id": "psi_null",
+        "text": "Nullified",
+        "color": "red",
+        "condition": { "u_has_any_effect": [ "effect_psi_null", "effect_psi_null_unbound", "effect_psi_neutralized" ] }
+      },
+      {
+        "id": "nether_attention",
+        "text": "Observed",
+        "color": "cyan",
+        "condition": { "u_has_effect": "psi_nether_attention" }
+      },
+      {
+        "id": "psionic_overload",
+        "text": "Headache",
+        "color": "light_green",
+        "condition": { "u_has_effect": "psionic_overload" }
+      },
+      {
+        "id": "nether_attunement_raiser",
+        "text": "N. Conduit",
+        "color": "magenta",
+        "condition": { "u_has_effect": "effect_nether_attunement_raiser" }
+      },
+      {
+        "id": "nether_attunement_attenuation",
+        "text": "N. Attenuated",
+        "color": "light_gray",
+        "condition": { "u_has_effect": "effect_nether_attunement_attenuation" }
+      },
+      {
+        "id": "psi_reduced_breathing",
+        "text": "Short Breath",
+        "color": "light_blue",
+        "condition": { "u_has_effect": "effect_psi_reduced_breathing" }
+      },
+      {
+        "id": "biokin_overload",
+        "text": "Weakened",
+        "color": "light_red",
+        "condition": { "u_has_effect": "effect_biokin_overload" }
+      },
+      {
+        "id": "electrokin_overload",
+        "text": "Jerky",
+        "color": "yellow",
+        "condition": { "u_has_effect": "effect_electrokin_overload" }
+      },
+      {
+        "id": "pyrokin_overload",
+        "text": "Feverish",
+        "color": "red",
+        "condition": { "u_has_effect": "effect_pyrokin_overload" }
+      },
+      {
+        "id": "teleporter_overload",
+        "text": "Warped Space",
+        "color": "magenta",
+        "condition": { "u_has_effect": "teleporter_overload" }
+      },
+      {
+        "id": "telekin_overload",
+        "text": "Weighted",
+        "color": "light_gray",
+        "condition": { "u_has_effect": "effect_telekin_overload" }
+      },
+      {
+        "id": "vitakin_overload",
+        "text": "Ennervated",
+        "color": "light_green",
+        "condition": { "u_has_effect": "effect_vitakin_overload" }
+      }
+    ],
+    "padding": 0,
+    "flags": [ "W_LABEL_NONE" ]
+  }
+]

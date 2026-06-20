@@ -1,0 +1,8 @@
+[
+    {
+	  "type": "mutation",
+      "id": "THRESH_SLIME",
+      "copy-from": "THRESH_SLIME",
+      "threshold": false
+    }
+]

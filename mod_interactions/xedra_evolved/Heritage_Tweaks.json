@@ -1,0 +1,78 @@
+[
+  {
+    "type": "mutation",
+    "id": "DHAMPIR_TRAIT",
+    "copy-from": "DHAMPIR_TRAIT",
+    "types": [ ],
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "LILIN_TRAITS",
+    "copy-from": "LILIN_TRAITS",
+    "types": [ ],
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_LILIN",
+    "copy-from": "THRESH_LILIN",
+    "threshold": false
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_FAIR_FOLK_NOBLE",
+    "copy-from": "THRESH_FAIR_FOLK_NOBLE",
+    "threshold": false
+  },
+  {
+    "type": "mutation",
+    "id": "XEDRA_CHRONOMANCER",
+	"copy-from": "XEDRA_CHRONOMANCER",
+	"types": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "BLOODTHORNE_DRUID",
+	"copy-from": "BLOODTHORNE_DRUID",
+    "cancels": [ ],
+    "types": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "NATIVE_SHAPESHIFTER",
+	"copy-from": "NATIVE_SHAPESHIFTER",
+	"types": [ ],
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "CHANGELING_MAGIC",
+	"copy-from": "CHANGELING_MAGIC",
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_SPRING",
+	"copy-from": "CHANGELING_SEASONAL_MAGIC_SPRING",
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_SUMMER",
+	"copy-from": "CHANGELING_SEASONAL_MAGIC_SUMMER",
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_AUTUMN",
+	"copy-from": "CHANGELING_SEASONAL_MAGIC_AUTUMN",
+	"cancels": [ ]
+  },
+  {
+    "type": "mutation",
+    "id": "CHANGELING_SEASONAL_MAGIC_WINTER",
+	"copy-from": "CHANGELING_SEASONAL_MAGIC_WINTER",
+	"cancels": [ ]
+  }
+]

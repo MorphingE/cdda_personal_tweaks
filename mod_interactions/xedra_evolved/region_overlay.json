@@ -1,0 +1,56 @@
+[
+  {
+    "type": "region_settings_forest",
+    "id": "default",
+    "copy-from": "default",
+    "noise_threshold_forest": 0.15,
+    "noise_threshold_forest_thick": 0.25,
+    "noise_threshold_swamp_adjacent_water": 0.2,
+    "noise_threshold_swamp_isolated": 0.6
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "forest_thick",
+    "copy-from": "forest_thick",
+    "extend": { "extras": [ [ "mx_bandits_ambush", 5 ], [ "mx_bandits_grave", 2 ], [ "mx_bandits_outpost", 2 ] ] }
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "forest",
+    "copy-from": "forest",
+    "extend": { "extras": [ [ "mx_bandits_ambush", 5 ], [ "mx_bandits_grave", 2 ], [ "mx_bandits_outpost", 2 ] ] }
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "forest_water",
+    "copy-from": "forest_water",
+    "extend": { "extras": [ [ "mx_bandits_ambush", 5 ], [ "mx_bandits_grave", 2 ], [ "mx_bandits_outpost", 2 ] ] }
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "field",
+    "copy-from": "field",
+    "extend": { "extras": [ [ "mx_bandits_ambush", 10 ], [ "mx_bandits_grave", 10 ], [ "mx_bandits_outpost", 10 ] ] }
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "road",
+    "copy-from": "road",
+    "extend": { "extras": [ [ "mx_XEDRA_truck", 2 ], [ "mx_bandits_ambush", 25 ] ] }
+  },
+  {
+    "type": "map_extra_collection",
+    "id": "build",
+    "copy-from": "build",
+    "extend": {
+      "extras": [ [ "mx_exocrash_1", 2 ], [ "mx_exocrash_2", 2 ], [ "mx_bandits_ambush", 10 ], [ "mx_bandits_hideout", 10 ] ]
+    }
+  },
+  {
+    "type": "region_settings_city",
+    "id": "default",
+    "copy-from": "default",
+    "city_size": 12,
+    "city_spacing": 6
+  }
+]

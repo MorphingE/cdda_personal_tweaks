@@ -1,0 +1,56 @@
+[
+  {
+    "id": "xedra_magic_generic",
+	"copy-from": "xedra_magic_generic",
+    "type": "magic_type",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "xedra_dream_magic",
+	"copy-from": "xedra_dream_magic",
+    "type": "magic_type",
+    "energy_source": "NONE"
+  },
+  {
+    "id": "night_sight",
+    "type": "SPELL",
+    "copy-from": "night_sight",
+	"flags": [ "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"components": "spell_components_classless_xedra_night_sight"
+  },
+  {
+    "id": "dread_weight",
+    "type": "SPELL",
+	"copy-from": "dread_weight",
+	"flags": [ "SOMATIC", "NO_PROJECTILE", "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"components": "spell_components_classless_xedra_dread_weight"
+  },
+  {
+    "id": "blur",
+    "type": "SPELL",
+	"copy-from": "blur",
+	"flags": [ "NO_LEGS", "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"components": "spell_components_classless_xedra_blur"
+  },
+  {
+    "id": "damage_transfer",
+    "type": "SPELL",
+	"copy-from": "damage_transfer",
+	"flags": [ "SOMATIC", "SILENT", "NO_PROJECTILE", "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"components": "spell_components_classless_xedra_damage_transfer"
+  },
+  {
+    "id": "fire_teleport",
+    "type": "SPELL",
+	"copy-from": "fire_teleport",
+	"flags": [ "SOMATIC", "SILENT", "NO_LEGS", "TARGET_TELEPORT", "NO_HANDS" ],
+    "base_energy_cost": 0,
+	"energy_increment": 0,
+    "final_energy_cost": 0,
+	"components": "spell_components_classless_xedra_fire_teleport"
+  }
+]

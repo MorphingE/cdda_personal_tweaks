@@ -1,0 +1,11 @@
+[
+	{
+    "id": "druid_recurve",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+	"name": { "str": "Woodbow" },
+	"copy-from": "druid_recurve",
+    "min_strength": 6,
+    "ranged_damage": { "damage_type": "stab", "amount": 6 }
+    }
+]

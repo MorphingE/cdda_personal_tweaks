@@ -1,0 +1,17 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_EATER_DROSS_VITAMIN_1",
+    "effect": [ { "math": [ "n_vitamin('dreamer_vit') += ((u_spell_level('eat_dreamdross'))*1)" ] } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_EATER_DROSS_VITAMIN_2",
+    "effect": [ { "math": [ "n_vitamin('dreamer_vit') += ((u_spell_level('eat_dreamdross'))*10)" ] } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_EATER_DROSS_VITAMIN_3",
+    "effect": [ { "math": [ "n_vitamin('dreamer_vit') += 1000" ] } ]
+  }
+]

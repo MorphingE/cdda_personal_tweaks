@@ -1,0 +1,49 @@
+[
+  {
+    "id": "afs_bio_monowhip",
+    "copy-from": "bionic_general",
+    "type": "ITEM",
+    "subtypes": [ "BIONIC_ITEM" ],
+    "name": { "str": "Monofilament Whip CBM" },
+    "description": "A carbon nanotube wire covertly installed in your right arm.  When activated, it extends to its full length and can be used to strike enemies both at close and long range.",
+    "price": "15 kUSD",
+    "difficulty": 5
+  },
+  {
+    "id": "afs_bio_whip_weapon",
+    "type": "ITEM",
+    "symbol": "/",
+    "color": "red",
+    "name": { "str": "monofilament whip" },
+    "description": "A long filament of nested carbon nanotubes only a few microns in diameter.  In essence a very thin, very strong and very sharp blade that you throw at a moment's notice.",
+    "weight": "40 g",
+    "volume": "200 ml",
+    "price": "35 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "nanotubes" ],
+    "flags": [
+      "REACH_ATTACK",
+      "REACH3",
+      "NONCONDUCTIVE",
+      "BIONIC_WEAPON",
+      "BIONIC_WEAPON_MELEE",
+      "UNBREAKABLE_MELEE",
+      "TRADER_AVOID",
+      "USE_UPS"
+    ],
+    "techniques": [ "WBLOCK_1", "WIDE", "SPIN", "RAPID" ],
+    "to_hit": { "grip": "bad", "length": "long", "surface": "every", "balance": "clumsy" },
+    "weapon_category": [ "BIONIC_WEAPONRY", "WHIPS" ],
+    "melee_damage": { "cut": 27 }
+  },
+  {
+    "type": "bionic",
+    "id": "afs_bio_monowhip",
+    "name": { "str": "Monofilament Whip" },
+    "description": "A carbon nanotube wire covertly installed in your right arm.  When activated, it extends to its full length and can be used to strike enemies both at close and long range.",
+    "occupied_bodyparts": [ [ "arm_r", 4 ], [ "hand_r", 1 ] ],
+    "act_cost": "50 J",
+    "fake_weapon": "afs_bio_whip_weapon",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  }
+]

@@ -42,7 +42,7 @@
     "visibility": 8,
     "ugliness": 4,
     "mixed_effect": true,
-    "description": "Your legs are assisted by six tentacles that merge into your waist and thighs.  This makes your movement quiet and increases your swimming speed and reduces wet penalties.",
+    "description": "Your legs are assisted by six tentacles that merge into your waist and thighs.  This  increases your swimming speed and reduces wet penalties.",
     "types": [ "LEGS" ],
     "leads_to": [ "LEG_TENT_BRACE", "LEG_TENTACLES_ADAPTED" ],
     "category": [ "CEPHALOPOD" ],
@@ -93,7 +93,6 @@
 	        "enchantments": [
       {
         "values": [
-		  { "value": "MOVE_COST", "multiply": -0.10 },
           { "value": "MOVECOST_OBSTACLE_MOD", "multiply": -0.25 },
 		  { "value": "BONUS_BLOCK", "add": 2 }
         ]

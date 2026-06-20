@@ -1,0 +1,208 @@
+[
+{
+"id": "os_battlemeido_suit",
+"type": "ITEM",
+"subtypes": [ "ARMOR", "ARTIFACT" ],
+"category": "armor",
+"name": { "str": "Battle Meido Outfit" },
+"description": "What used to be a sexy, shortened maid dress is now something much more. Quite revealing in some places - but a master craftsman has turned this eye-candy outfit into something worthy of being worn by an elite meido. Kevlar and hardened steel inconspiciously line the frills and head-turning sex appeal of this cute little number - backed by a well-distributed system of armor for the elbows, back and knees. The short skirt can be easily flipped to reveal an entire arsenal of throwing knives and grenades. Holsters deck out the kevlar vest-turned corset, capable of holding several pistols while looking fancy as fuck. This is for the maid who is also a badass.",
+"weight": "2000 g",
+"volume": "2000 ml",
+"price": "9 kUSD",
+"price_postapoc": "10 kUSD", 
+"material": [ "qt_steel", "kevlar_layered", "cotton" ],
+"symbol": "[",
+"looks_like": "maid_dress_short",
+"color": "dark_gray",
+"warmth": 5,
+"flags": [
+"VARSIZE",
+"STURDY",
+"NONCONDUCTIVE",
+"MUNDANE"
+],
+"pocket_data": [
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+    "magazine_well": "50 ml",
+    "holster": true,
+    "flag_restriction": [ "SHEATH_KNIFE" ],
+    "moves": 30,
+    "max_contains_volume": "100 ml",
+    "max_contains_weight": "500 g",
+    "max_item_length": "35 cm"
+  },
+  {
+  "magazine_well": "350 ml",
+  "pocket_type": "CONTAINER",
+  "holster": true,
+  "min_item_volume": "250 ml",
+  "max_contains_volume": "1000 ml",
+  "max_contains_weight": "2 kg",
+  "max_item_length": "30 cm",
+  "moves": 70
+  },
+  {
+  "magazine_well": "350 ml",
+  "pocket_type": "CONTAINER",
+  "holster": true,
+  "min_item_volume": "250 ml",
+  "max_contains_volume": "1000 ml",
+  "max_contains_weight": "2 kg",
+  "max_item_length": "30 cm",
+  "moves": 70
+  },
+  {
+  "pocket_type": "CONTAINER",
+  "max_contains_volume": "1200 ml",
+  "max_contains_weight": "3 kg",
+  "moves": 30,
+  "flag_restriction": [
+    "GRENADE"
+  ],
+  "volume_encumber_modifier": 0.3
+ }
+],
+"use_action": { "type": "holster", "holster_prompt": "Sheath weapon", "holster_msg": "You sheath your %s" 
+},
+"longest_side": "40 cm",
+"material_thickness": 5,
+"passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "well_distributed" ] } ],
+"armor": [
+  {
+    "material": [
+      { "type": "qt_steel", "covered_by_mat": 100, "thickness": 4.4 },
+	  { "type": "cotton", "covered_by_mat": 100, "thickness": 4.4 },
+      { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+    ],
+    "covers": [ "torso" ],
+    "coverage": 60,
+    "encumbrance": 6
+  }
+]
+
+},
+{
+"id": "os_battlemeido_hand",
+"type": "ITEM",
+"subtypes": [ "ARMOR" ],
+"category": "armor",
+"name": { "str_sp": "Battlemeido wristguards" },
+"description": "A frilly wristguard, often worn by meidos. This one has been reinforced with padded rebar alongside the arm, and can be linked with the elbow protection of the Battlemeido Outfit. Cherry on top, there's a pair of sharpened rebar welded to the back of the armguard ensuring any punch thrown with this can deliver the point.",
+"weight": "1850 g",
+"volume": "300 ml",
+"price": "11 USD",
+"price_postapoc": "20 USD 50 cent",
+"to_hit": { "grip": "weapon", "length": "hand", "surface": "line", "balance": "neutral" },
+"material": [ "qt_steel", "kevlar_layered", "cotton" ],
+"symbol": "[",
+"looks_like": "knuckle_skewer",
+"color": "light_gray",
+"warmth": 1,
+"material_thickness": 1,
+"flags": [ "WATER_FRIENDLY", "DURABLE_MELEE", "OUTER", "NONCONDUCTIVE" ],
+"melee_damage": { "bash": 4, "stab": 8 },
+"armor": [
+  {  "material": [
+	  { "type": "qt_steel", "covered_by_mat": 100, "thickness": 4.40 },
+      { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.40 }
+    ],
+    "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ],
+    "coverage": 50,
+    "encumbrance": 3
+  }
+]
+},
+{
+"id": "os_battlemeido_footwear",
+"type": "ITEM",
+"subtypes": [ "ARMOR" ],
+"category": "armor",
+"copy-from": "sneakers_steel",
+"looks_like": "heels",
+"name": { "str": "pair of Battlemeido footwear", "str_pl": "pairs of Battlemeido footwear" },
+"description": "A cute pair of boots for the elegant Battlemeido. They're specifically weighted to avoid stumbling, enable twirling and for moving quickly.",
+"weight": "400 g",
+"volume": "700 ml"
+}
+]

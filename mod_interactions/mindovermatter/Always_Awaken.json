@@ -1,0 +1,8 @@
+[
+  {
+    "type": "jmath_function",
+    "id": "matrix_awakening_odds",
+    "num_args": 1,
+    "return": "(_0 * 0) + 100"
+  }
+]

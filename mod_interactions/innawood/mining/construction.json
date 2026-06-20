@@ -1,0 +1,31 @@
+[
+  {
+    "type": "construction_group",
+    "id": "make_stone_anvil",
+    "name": "Make Stone Anvil"
+  },
+  {
+    "type": "construction",
+    "id": "minmod_anvil_med",
+    "group": "make_stone_anvil",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "survival", 2 ] ],
+    "time": "600 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ] ],
+    "pre_terrain": "f_boulder_medium",
+    "post_terrain": "f_anvil_stone"
+  },
+  {
+    "type": "construction",
+    "id": "minmod_anvil_large",
+    "group": "make_stone_anvil",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 4 ], [ "survival", 2 ] ],
+    "time": "600 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "tools": [ [ [ "pickaxe", -1 ], [ "jackhammer", 30 ], [ "elec_jackhammer", 30 ] ] ],
+    "pre_terrain": "f_boulder_large",
+    "post_terrain": "f_anvil_stone"
+  }
+]

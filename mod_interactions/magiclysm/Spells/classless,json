@@ -1,0 +1,14 @@
+[
+  {
+    "id": "MANA_SEEKER_BOLTS",
+	"copy-from": "MANA_SEEKER_BOLTS",
+    "type": "SPELL",
+    "spell_class": "MANATOUCHED",
+  },
+  {
+    "id": "MANA_CRYST_MANA",
+	"copy-from": "MANA_CRYST_MANA",
+    "type": "SPELL",
+    "spell_class": "MANATOUCHED",
+  }
+]

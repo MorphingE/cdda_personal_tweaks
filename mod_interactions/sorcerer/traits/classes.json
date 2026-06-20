@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "SORCERER",
+    "copy-from": "SORCERER",
+	"enchantments": [
+		{ 
+			"values": [ { "value": "BIONIC_POWER", "add": { "math": [ "u_spell_level_sum('school': 'TECHNOMANCER') * 5000000" ] } } ] 
+		}
+	]
+  }
+]

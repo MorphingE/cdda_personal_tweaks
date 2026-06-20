@@ -1,0 +1,210 @@
+[
+  {
+    "id": "create_dream_dross",
+    "type": "SPELL",
+    "copy-from": "create_dream_dross",
+	"flags": [ "NO_HANDS", "PERMANENT_ALL_LEVELS", "NO_LEGS" ],
+	"base_energy_cost": 500,
+	"energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "dream_blade",
+    "type": "SPELL",
+    "copy-from": "dream_blade",
+	"flags": [ "VERBAL", "NO_HANDS", "NO_LEGS" ],
+	"base_energy_cost": 25,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "dream_dagger",
+    "type": "SPELL",
+    "copy-from": "dream_dagger",
+	"flags": [ "VERBAL", "NO_HANDS", "NO_LEGS" ],
+	"base_energy_cost": 15,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "dream_armor",
+    "type": "SPELL",
+    "copy-from": "dream_armor",
+	"flags": [ "VERBAL", "NO_HANDS", "NO_LEGS", "SOMATIC" ],
+	"base_energy_cost": 50,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "banish_nether_monsters",
+    "type": "SPELL",
+    "copy-from": "banish_nether_monsters",
+	"flags": [ "SILENT", "NO_HANDS" ],
+	"base_energy_cost": 500,
+    "energy_increment": -25,
+    "final_energy_cost": 100,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "banish_dark_monsters",
+    "type": "SPELL",
+    "copy-from": "banish_dark_monsters",
+	"flags": [ "SILENT", "NO_HANDS" ],
+	"base_energy_cost": 500,
+    "energy_increment": -25,
+    "final_energy_cost": 100,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_summon_twin",
+    "type": "SPELL",
+    "copy-from": "spell_summon_twin",
+	"flags": [ "SILENT", "RANDOM_TARGET", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 500,
+	"energy_increment": -20,
+    "final_energy_cost": 100,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_summon_twin_flood",
+    "type": "SPELL",
+    "copy-from": "spell_summon_twin_flood",
+	"flags": [ "SILENT", "RANDOM_TARGET", "NO_EXPLOSION_SFX", "NO_LEGS", "NO_HANDS" ],
+	"base_energy_cost": 700,
+    "final_energy_cost": 200,
+    "energy_increment": -20,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_dreamer_clairvoyance",
+    "type": "SPELL",
+    "copy-from": "spell_dreamer_clairvoyance",
+	"flags": [ "IGNORE_WALLS", "NO_LEGS", "SILENT", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 600,
+    "final_energy_cost": 300,
+    "energy_increment": -10,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_dreamer_clairvoyance_eff",
+    "type": "SPELL",
+    "copy-from": "spell_dreamer_clairvoyance_eff",
+	"flags": [ "IGNORE_WALLS", "NO_LEGS", "NO_HANDS", "SILENT", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 600,
+    "final_energy_cost": 300,
+    "energy_increment": -10,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "summon_shifter",
+    "type": "SPELL",
+    "copy-from": "summon_shifter",
+	"flags": [ "NO_HANDS" ],
+	"base_energy_cost": 300,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "summon_sapient_light",
+    "type": "SPELL",
+    "copy-from": "summon_sapient_light",
+	"flags": [ "NO_HANDS" ],
+	"base_energy_cost": 400,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "make_constructed_hammer",
+    "type": "SPELL",
+    "copy-from": "make_constructed_hammer",
+	"flags": [ "SOMATIC", "NO_HANDS" ],
+	"base_energy_cost": 450,
+    "final_energy_cost": 200,
+    "energy_increment": -15,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "summon_duplicator",
+    "type": "SPELL",
+    "copy-from": "summon_duplicator",
+	 "flags": [ "VERBAL", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 500,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "xedra_dreamer_time_bubble",
+    "type": "SPELL",
+    "copy-from": "xedra_dreamer_time_bubble",
+	"flags": [ "SILENT", "NO_EXPLOSION_SFX", "IGNORE_WALLS", "NO_HANDS" ],
+	"base_casting_time": 200,
+    "final_casting_time": 100,
+    "casting_time_increment": -5,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "teleport_coin",
+    "type": "SPELL",
+    "copy-from": "teleport_coin",
+	"flags": [ "SILENT", "TARGET_TELEPORT", "NO_HANDS" ],
+	"base_energy_cost": 550,
+    "final_energy_cost": 50,
+	"energy_increment": -15,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "summon_ophanim",
+    "type": "SPELL",
+    "copy-from": "summon_ophanim",
+	"flags": [ "VERBAL", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 600,
+    "final_energy_cost": 100,
+    "energy_increment": -10,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "summon_winch",
+    "type": "SPELL",
+    "copy-from": "summon_winch",
+	"flags": [ "SOMATIC", "VERBAL", "SILENT", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": 600,
+    "final_energy_cost": 100,
+    "energy_increment": -10,
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "xedra_dreamer_generate_accelerated_time",
+    "type": "SPELL",
+    "copy-from": "xedra_dreamer_generate_accelerated_time",
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_ethereal_wings",
+    "type": "SPELL",
+    "copy-from": "spell_ethereal_wings",
+	"base_energy_cost": { "math": [ "u_has_trait('ethereal_wings') ? 0 : 100" ] },
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_karma_arms",
+    "type": "SPELL",
+    "copy-from": "spell_karma_arms",
+	"base_energy_cost": { "math": [ "u_has_trait('karma_arms') ? 0 : 100" ] },
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_stalker_eyes",
+    "type": "SPELL",
+    "copy-from": "spell_stalker_eyes",
+	"base_energy_cost": { "math": [ "u_has_trait('stalker_eyes') ? 0 : 50" ] },
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "spell_devil_tail",
+    "type": "SPELL",
+    "copy-from": "spell_devil_tail",
+	"base_energy_cost": { "math": [ "u_has_trait('devil_tail') ? 0 : 50" ] },
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  },
+  {
+    "id": "dreamer_lucid_dreams",
+    "type": "SPELL",
+    "copy-from": "dreamer_lucid_dreams",
+	"flags": [ "SOMATIC", "VERBAL", "SILENT", "NO_EXPLOSION_SFX", "NO_HANDS" ],
+	"base_energy_cost": { "math": [ "u_has_trait('LUCID_DREAM') ? 0 : 250" ] },
+    "energy_source": { "type": "VITAMIN", "vitamin": "dreamer_vit" }
+  }
+]

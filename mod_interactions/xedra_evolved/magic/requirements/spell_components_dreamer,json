@@ -1,0 +1,186 @@
+[
+  {
+    "id": "spell_components_dream_blade",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 3 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_dream_dagger",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_dream_armor",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_banish_nether_monsters",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 9 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_banish_dark_monsters",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 9 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_summon_twin",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 6 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_summon_twin_flood",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 9 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_dreamer_clairvoyance",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_dreamer_clairvoyance_eff",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_summon_shifter",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 4 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_summon_sapient_light",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 5 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_make_constructed_hammer",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 4 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_summon_duplicator",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_xedra_dreamer_time_bubble",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 7 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_dreamer_coin",
+    "type": "requirement",
+    "components": [
+      [ [ "coin_penny", 1 ], [ "coin_nickel", 1 ], [ "coin_quarter", 1 ], [ "coin_half_dollar", 1 ], [ "coin_dollar", 1 ] ],
+	  [ [ "scrap_dreamdross", 6 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_summon_ophanim",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_summon_winch",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "dreamdross_lump", 1 ], [ "scrap_dreamdross", 10 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_xedra_dreamer_generate_accelerated_time",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_ethereal_wings",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_karma_arms",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_stalker_eyes",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_spell_devil_tail",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 1 ] ]
+    ]
+  },
+  {
+    "id": "spell_components_dreamer_lucid_dreams",
+    "type": "requirement",
+    "//": "Dreamdross spell requirement addition",
+    "components": [
+      [ [ "scrap_dreamdross", 8 ] ]
+    ]
+  }
+]

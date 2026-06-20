@@ -1,0 +1,73 @@
+[
+  {
+    "id": "spacebar_mine_wind_sun_rad",
+    "type": "widget",
+    "style": "layout",
+    "label": "wind/sun/radiation/snow",
+    "arrange": "rows",
+    "width": 58,
+    "widgets": [ "wind_snow_descs", "sundial_label_layout", "rad_badge_desc" ]
+  },
+  {
+    "id": "wind_snow_descs",
+    "type": "widget",
+    "style": "layout",
+    "label": "1_enviroment block",
+    "arrange": "columns",
+    "width": 58,
+    "widgets": [ "wind_desc", "snow_depth_desc" ]
+  },
+  {
+    "id": "spacebar_mine_enviroment_conditions_block",
+    "type": "widget",
+    "style": "layout",
+    "label": "1_enviroment block",
+    "arrange": "minimum_columns",
+    "width": 58,
+    "widgets": [ "spacebar_separator_2", "enviroment_conditions_block_2" ]
+  },
+  {
+    "id": "snow_depth_desc",
+    "type": "widget",
+    "label": "Snow",
+    "style": "text",
+    "flags": [ "W_DISABLED_WHEN_EMPTY" ],
+    "copy-from": "snow_depth_desc"
+  },
+  {
+    "id": "enviroment_conditions_block_2",
+    "type": "widget",
+    "style": "layout",
+    "label": "environment block",
+    "arrange": "minimum_columns",
+    "width": 36,
+    "widgets": [ "time_&_weather_layout" ]
+  },
+  {
+    "id": "time_&_weather_layout",
+    "type": "widget",
+    "label": "time",
+    "style": "layout",
+    "arrange": "minimum_columns",
+    "width": 58,
+    "widgets": [ "time_&_layout", "&_weather_layout" ]
+  },
+  {
+    "id": "time_&_layout",
+    "type": "widget",
+    "label": "time",
+    "style": "layout",
+    "arrange": "rows",
+    "width": 26,
+    "widgets": [ "date_desc_label", "time_desc_label", "moon_phase_desc" ]
+  },
+  {
+    "id": "&_weather_layout",
+    "type": "widget",
+    "label": "time",
+    "style": "layout",
+    "arrange": "rows",
+    "width": 26,
+    "widgets": [ "weather_desc", "lighting_desc", "env_temp_desc" ]
+  }
+]

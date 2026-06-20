@@ -1,0 +1,10 @@
+[
+  {
+    "id": "dreamer_vit",
+	"copy-from": "dreamer_vit",
+    "type": "vitamin",
+    "min": 0,
+    "max": 2000,
+    "rate": "0 m"
+  }
+]

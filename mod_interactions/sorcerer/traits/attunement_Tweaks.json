@@ -1,0 +1,214 @@
+[
+   {
+    "id": "ALCHEMIST",
+    "type": "mutation",
+    "copy-from": "ALCHEMIST",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "ARTIFICER",
+    "type": "mutation",
+    "copy-from": "ARTIFICER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "BIOTEK",
+    "type": "mutation",
+    "copy-from": "BIOTEK",
+	"extend": { "prereqs": [ "SORCERER" ] },
+	"bionic_slot_bonuses": { "torso": 20, "arm_l": 5, "arm_r": 5, "hand_l": 1, "hand_r": 1, "leg_l": 8, "leg_r": 8, "mouth": 1, "head": 5, "eyes": 1, "foot_l": 2, "foot_r": 2 },
+    "cancels": []
+  },
+  {
+    "id": "BLOOD_MAGE",
+    "type": "mutation",
+    "copy-from": "BLOOD_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "BOREAL_MAGE",
+    "type": "mutation",
+    "copy-from": "BOREAL_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  
+  {
+    "id": "CLEANSING_FLAME",
+    "type": "mutation",
+    "copy-from": "CLEANSING_FLAME",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "CRUSADER",
+    "type": "mutation",
+    "copy-from": "CRUSADER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "EARTH_ELEMENTAL",
+    "type": "mutation",
+    "copy-from": "EARTH_ELEMENTAL",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "FIRE_ELEMENTAL",
+    "type": "mutation",
+    "copy-from": "FIRE_ELEMENTAL",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "FORCE_MAGE",
+    "type": "mutation",
+    "copy-from": "FORCE_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "GAIAS_CHOSEN",
+    "type": "mutation",
+    "copy-from": "GAIAS_CHOSEN",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "GLACIER_MAGE",
+    "type": "mutation",
+    "copy-from": "GLACIER_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "GOLEMANCER",
+    "type": "mutation",
+    "copy-from": "GOLEMANCER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "GRAVITY_MAGE",
+    "type": "mutation",
+    "copy-from": "GRAVITY_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "OVERCLOCKER",
+    "type": "mutation",
+    "copy-from": "OVERCLOCKER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "ICE_ELEMENTAL",
+    "type": "mutation",
+    "copy-from": "ICE_ELEMENTAL",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "ILLUSIONIST",
+    "type": "mutation",
+    "copy-from": "ILLUSIONIST",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "MAGNETISM_MAGE",
+    "type": "mutation",
+    "copy-from": "MAGNETISM_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "PERMAFROST_MAGE",
+    "type": "mutation",
+    "copy-from": "PERMAFROST_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "RADIATION_MAGE",
+    "type": "mutation",
+    "copy-from": "RADIATION_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "SHAMAN",
+    "type": "mutation",
+    "copy-from": "SHAMAN",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "SHAPESHIFTER",
+    "type": "mutation",
+    "copy-from": "SHAPESHIFTER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "SOULFIRE",
+    "type": "mutation",
+    "copy-from": "SOULFIRE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "STORM_ELEMENTAL",
+    "type": "mutation",
+    "copy-from": "STORM_ELEMENTAL",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "STORMCALLER",
+    "type": "mutation",
+    "copy-from": "STORMCALLER",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "SUN_MAGE",
+    "type": "mutation",
+    "copy-from": "SUN_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "TUNDRA_MAGE",
+    "type": "mutation",
+    "copy-from": "TUNDRA_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "VOID_MAGE",
+    "type": "mutation",
+    "copy-from": "VOID_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "VULCANIST",
+    "type": "mutation",
+    "copy-from": "VULCANIST",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  },
+  {
+    "id": "WITHER_MAGE",
+    "type": "mutation",
+    "copy-from": "WITHER_MAGE",
+	"extend": { "prereqs": [ "SORCERER" ] },
+    "cancels": []
+  }
+]
